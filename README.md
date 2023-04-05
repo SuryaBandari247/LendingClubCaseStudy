@@ -1,10 +1,10 @@
 # Lending case study
 
-A consumer finance company which specialises in lending various types of loans would like to design a model which help the company has to make a decision for loan approval based on the applicant’s profile. 
-Two types of risks are associated with the bank’s decision:
+A consumer finance company which specialises in lending various types of loans would like to design a model which help the company has to make a decision for loan approval based on the applicantâ€™s profile. 
+Two types of risks are associated with the bankâ€™s decision:
 
-If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company
-If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company.
+- If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company
+- If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company.
 
 Now this would require a preliminary understanding of the features that define whether applicant's loan should be accepted or rejected.
 
@@ -28,11 +28,11 @@ Now this would require a preliminary understanding of the features that define w
 
 ## Conclusions
 - Annual income - Applicant with lesser income tend to default especially in the range of 0-25K. Income with more than 100K are good and 50-100K are moderate.
-- Term – Rate of defaulters increase with the term. As the length of period is more, there could be many factors coming with time which could give more chance for defaulting.
+- Term â€“ Rate of defaulters increase with the term. As the length of period is more, there could be many factors coming with time which could give more chance for defaulting.
 - Interest rate - Applicant with interest rate greater than 15% are more likely to default.
-- Home ownership – Home ownership is relatively not affecting the defaulters count.
+- Home ownership â€“ Home ownership is relatively not affecting the defaulters count.
 - DTI: Applicant with lower DTI score are preferrable. Customer falling under 16-25% highly risky applicants.
-- Grade – It is clear from analysis that with the loan amount, grade increases, which inturn increase the interest rate, so LC should be careful while granting loans with higher grade(A?G)
+- Grade â€“ It is clear from analysis that with the loan amount, grade increases, which inturn increase the interest rate, so LC should be careful while granting loans with higher grade(A?G)
 - Sub-grade: Same as grade
 - Address State: Among the top business states(based on maximum applicants), highest defaulters are from FL.  Order: FL>CA>MD>GA>NJ>WA>AZ>NY>IL>OH>VA>PA>MA>TX
 - Purpose: LC should be careful while granding loan to "small business" have higher defaulters. 
